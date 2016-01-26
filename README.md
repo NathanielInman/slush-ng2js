@@ -81,7 +81,7 @@ those who actually put in all the hard work to create them.
   design.
 - No more worrying about vendor prefixes! [Autoprefixer][6] has been an instrumental
   improvement to my workflow when it comes to styling. None of that would be possible
-  without [PostCSS][5] and all of the improvement it's brought to frontend development.
+  without [PostCSS][5] and all of the benefits it's brought to frontend development.
 - If you're still coding without a linter like [ESLint][7], I'm not sure whether to
   give you a high-five for all the hard work or question your dedication for only
   stupidity.
