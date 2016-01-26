@@ -79,7 +79,6 @@ those who actually put in all the hard work to create them.
   design. I love my curly brace languages, but personally think that it gets in-between
   me and focusing on what's important when dealing with UX, wireframing or general
   design.
-- Smart css has
 - No more worrying about vendor prefixes! [Autoprefixer][6] has been an instrumental
   improvement to my workflow when it comes to styling. None of that would be possible
   without [PostCSS][5] and all of the improvement it's brought to frontend development.
