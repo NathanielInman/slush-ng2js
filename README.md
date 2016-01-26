@@ -49,9 +49,9 @@ What you need to run this app:
 * Ensure you're running the latest versions Node and NPM
 
 ## Installing
-* `npm install slush-ng2`
+* `npm install slush-ng2js`
 * `mkdir yourApplication;cd yourApplication`
-* `slush ng2` then answer the questions
+* `slush ng2js` then answer the questions
 * `npm install` to install al local dependencies
 
 ## Running the app

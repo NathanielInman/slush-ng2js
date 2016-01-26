@@ -1,5 +1,5 @@
 {
-  "name": "slush-ng2",
+  "name": "slush-ng2js",
   "version": "1.0.0",
   "description": "Angular2 using ES2016 instead of TypeScript",
   "license": "MIT",
