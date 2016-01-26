@@ -46,13 +46,13 @@ ng2js/
 ## Dependencies
 What you need to run this app:
 * `node` and `npm` (`brew install node`)
-* Ensure you're running the latest versions Node and NPM
+* Ensure you're running the latest versions of Node and NPM
 
 ## Installing
 * `npm install slush-ng2js`
 * `mkdir yourApplication;cd yourApplication`
 * `slush ng2js` then answer the questions
-* `npm install` to install al local dependencies
+* `npm install` to install all local dependencies
 
 ## Running the app
 * `gulp` to start the build process and listen for changes
