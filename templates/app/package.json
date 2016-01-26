@@ -1,10 +1,19 @@
 {
-  "name": "pinsight-apps.city",
-  "version": "1.0.0",
-  "description": "Angular 2 Single Page Application",
-  "author": "Nathaniel Inman <ninman@pinsightmedia.com>",
-  "license": "MIT",
-  "scripts": {},
+  "name": "<%= name %>",
+  "version": "<%= appVersion %>",
+  "description": "<%= appDescription %>",
+  "main": "gulpfile.babel.js",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= userName %>/<%= name %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= userName %>/<%= name %>/issues"
+  },
   "dependencies": {
     "angular2": "2.0.0-beta.0",
     "es6-promise": "^3.0.2",
@@ -35,13 +44,5 @@
     "ng-annotate-webpack-plugin": "^0.1.2",
     "poststylus": "^0.2.2",
     "webpack": "^1.12.12"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@git.assembla.com:pinsight-apps.city.git"
-  },
-  "engines": {
-    "node": ">= 4.2.1 <= 5",
-    "npm": ">= 3"
   }
 }
