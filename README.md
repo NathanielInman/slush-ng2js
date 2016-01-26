@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/NathanielInman/slush-ng2.svg?branch=master)](https://travis-ci.org/NathanielInman/slush-ng2) [![dependency Status](https://david-dm.org/NathanielInman/slush-ng2/status.svg?style=flat)](https://david-dm.org/NathanielInman/slush-ng2) [![devDependency Status](https://david-dm.org/NathanielInman/slush-ng2/dev-status.svg?style=flat)](https://david-dm.org/NathanielInman/slush-ng2#info=devDependencies)
+[![Build Status](https://travis-ci.org/NathanielInman/slush-ng2js.svg?branch=master)](https://travis-ci.org/NathanielInman/slush-ng2js) [![dependency Status](https://david-dm.org/NathanielInman/slush-ng2js/status.svg?style=flat)](https://david-dm.org/NathanielInman/slush-ng2js) [![devDependency Status](https://david-dm.org/NathanielInman/slush-ng2js/dev-status.svg?style=flat)](https://david-dm.org/NathanielInman/slush-ng2js#info=devDependencies)
 
 # Table of Contents
 * [File Structure](#file-structure)
@@ -13,7 +13,7 @@
 ## File Structure
 We use the component approach in our starter. This is the new standard for developing Angular apps and a great way to ensure maintainable code by encapsulation of our behavior logic.
 ```
-ng2/
+ng2js/
  ├──dist/                  * distribution folder
  |  ├──images/             * image assets
  |  ├──styles/             * compiled css stylesheets
