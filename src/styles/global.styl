@@ -1,0 +1,92 @@
+@require "partials/_loader.styl"
+@require "partials/_colors.styl"
+
+// Optimize kerning of all text rendered
+body, input, textarea, select, button
+  text-rendering optimizeLegibility
+  -webkit-font-smoothing: antialiased !important;
+
+svg
+  display inline-block
+  vertical-align middle
+
+// Make sure placeholder text is held over specific rules
+::placeholder
+  color colorBright !important
+
+a
+  text-decoration none
+
+.billboard
+  height 732px
+  margin 0
+  padding 0
+  top 0
+  left 0
+  right 0
+  bottom 0
+  background-image url(../images/City.jpg)
+  background-size cover
+  background-position center
+  background-repeat no-repeat
+  z-index -999
+nav
+  position absolute
+  width 100%
+  background: rgba(51,56,63,.5)
+  .header
+    margin 20px 40px 0 40px
+    .logo
+      border-radius 50%
+      width 50px
+      height 50px
+      color white
+      z-index 999
+      padding 0
+    .title
+      color white
+  #exCollapsingNavbar2
+    margin 0 55px
+    .nav
+      margin 0 0 20px 0
+      padding 0
+      list-style none
+      li
+        padding 0
+        margin 0 20px
+        a
+          color white
+        a:hover
+          color lightgrey
+      li:first-child
+        margin 0
+.content
+  margin 0 55px
+  .margin-for-content
+    margin 75px 0
+.left-content, .right-content
+  background light-blue
+.left-content
+  padding 108px  100px
+.right-content
+  margin-bottom 30px
+  padding 55px 25px
+.footer
+  position absolute
+  width 100%
+  background dark-blue
+  .footer-nav
+    margin 0 55px
+    .nav
+        margin 50px 0 50px 0
+        padding 0
+        list-style none
+        li
+          padding 0
+          margin 0 20px
+          a
+            color white
+          a:hover
+            color lightgrey
+        li:first-child
+          margin 0

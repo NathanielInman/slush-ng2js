@@ -1,3 +1,10 @@
+# Vim
+*.swp
+*.swo
+
+# Distribution folder
+dist
+
 # Logs
 logs
 *.log
