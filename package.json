@@ -1,6 +1,6 @@
 {
   "name": "slush-ng2js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Angular2 using ES2016 instead of TypeScript",
   "license": "MIT",
   "author": {
