@@ -38,7 +38,7 @@ export default {
   ],
   output:{
     path: '/dist',
-    publicPath: '/dist',
+    publicPath: '/',
     filename:'[name].js',
     library: 'app',
     libraryTarget: 'this'

@@ -4,6 +4,7 @@ import config        from './config';
 
 new webpackServer(webpack(config),{
   publicPath:  config.output.publicPath,
+  contentBase: 'dist/',
   progress:    true,
   hot:         true,
   colors:      true,
