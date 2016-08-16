@@ -1,0 +1,58 @@
+colorBlueDark =        #2c5774
+colorBlueMedium =      #4f7088
+colorDarkText =        #9f9fa2
+colorAccent =          #f0f0f2
+colorBlue =            #386387
+colorBrightLight =     #e3e3e5
+colorBright =          #dcdcde
+colorRed =             #cc2e12
+colorRedOrange =       #d34a30
+
+btn
+  position relative
+  display inline-block
+  div
+    display flex
+    align-items center
+    height 36px
+    border-radius 2px
+    cursor pointer
+    user-select none
+    font-size 14px
+    color colorAccent
+    &.disabled
+      cursor not-allowed
+    &.primary
+      background-color colorBlueDark
+      border-color colorBlueDark
+      &:hover
+        background-color colorBlueMedium
+        border-color colorBlueMedium
+        color white
+      &.disabled
+        background-color colorDarkText
+        border-color colorDarkText
+    &.secondary
+      background-color colorAccent
+      border-color colorAccent
+      color colorBlue
+      &:hover
+        background-color colorBrightLight
+        border-color colorBrightLight
+        color colorBlueDark
+      &.disabled
+        background-color colorAccent
+        border-color colorAccent
+        color colorBright
+    &.warning
+      background-color colorRed
+      border-color colorRed
+      &:hover
+        background-color colorRedOrange
+        border-color colorRedOrange
+      &.disabled
+        background-color #ff6666
+        border-color #ff6666
+    span
+      padding 0 24px
+

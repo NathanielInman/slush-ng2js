@@ -1,6 +1,9 @@
 {
   "presets": ["es2015","stage-0"],
   "plugins": [
-      ["transform-decorators-legacy"]
+    "syntax-object-rest-spread",
+    "transform-object-rest-spread",
+    "transform-runtime",
+    "transform-decorators-legacy"
   ]
 }

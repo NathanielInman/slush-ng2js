@@ -1,16 +1,12 @@
-import 'reflect-metadata/Reflect';
-import {Component} from 'angular2/core';
-import {bootstrap} from 'angular2/platform/browser';
+import 'reflect-metadata';
+import 'zone.js/dist/zone';
+import 'zone.js/dist/long-stack-trace-zone'; //dev only
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {enableProdMode} from '@angular/core';
+import {AppModule} from './AppModule';
 
-@Component({
-  selector: 'my-app',
-  template: '<h1>My first {{name}} app!</h1>'
-})
-class MyApp {
-  constructor(){
-    this.name = 'angular2';
-  }
-}
+// Determine whether we are production viable or not
+//enableProdMode();
 
-bootstrap(MyApp);
+platformBrowserDynamic().bootstrapModule(AppModule);
 

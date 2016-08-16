@@ -1,0 +1,26 @@
+colorBlue =            #386387
+colorBright =          #dcdcde
+colorDark =            #5f5f62
+colorDarkText =        #9f9fa2
+colorRedMedium =       #d4513b
+colorAccent =          #f0f0f2
+
+text-box
+  display block
+  position relative
+  input
+    font-size 14px
+    width 100%
+    padding-left 16px
+    border-radius 2px
+    height 48px
+    color colorBlue
+    background-color white
+    border 1px solid colorBright
+    &:focus
+      border-color colorDark
+    &.error
+      border-color colorRedMedium
+    &.disabled
+      background-color colorAccent
+      color colorDarkText

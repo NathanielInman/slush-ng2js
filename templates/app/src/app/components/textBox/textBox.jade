@@ -1,0 +1,8 @@
+input(type="{{(password)?'password':'text'}}",
+    [disabled]="disabled",
+    (keyup)="onChange($event.target.value)",
+    ([ngModel])="value",
+    [value]="value",
+    placeholder="{{placeholder}}",
+    [ngClass]="{'error':error,'disabled':disabled}")
+
