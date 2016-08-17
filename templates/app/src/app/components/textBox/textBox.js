@@ -1,6 +1,6 @@
 import './textBox.styl';
 import template from './textBox.jade';
-import {Input,Component,EventEmitter} from '@angular/core';
+import {Input,Component} from '@angular/core';
 import {generateAccessor,GenericAccessor} from '../../Accessor';
 
 @Component({
@@ -15,9 +15,8 @@ export class TextBoxComponent extends GenericAccessor{
   @Input() password = false;
   constructor(){
     super();
-    this.valueChange = new EventEmitter();
   }
   onChange(value){
-    this.valueChange.emit(value);
+    this.value = value;
   }
 }
